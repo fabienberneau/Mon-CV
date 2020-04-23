@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -14,28 +16,38 @@
     <script src="js/script.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="60">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">Moi</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#education">Diplômes</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Me contacter</a></li>
-                </ul>
-            </div>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"> 
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#about">Moi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiences">Expériences</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Diplômes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Me contacter</a>
+              </li>
+            
+          </ul>
         </div>
-    </nav>
+      </nav>
+
 
     <section id="about" class="container-fluid">
         <div class="col-xs-8 col-md-4 profile-picture">
@@ -57,7 +69,6 @@
                     <div class="col-md-12">
                         <div class="education-block">
                             <h5>Depuis fin janvier 2020</h5>
-                            <span class="fas fa-user-graduate"></span>
                             <h3>Formation Titre Professionnel</h3>
                             <h3>Web designer</h3>
                             <div class="red-divider"></div>
@@ -279,7 +290,8 @@
                     <a class="thumbnail"> <img src="ressources/mockup-pc-MAM.png" alt="Template MAM "></a>
                 </div>
                 <div class="col-sm-4">
-                    <a class="thumbnail" href="https://bulles-et-sens.netlify.app/"target="_blank">Découvrez le site <img src="ressources/bulles-&-sens.jpg" alt="template bulles & sens"></a>
+                    <a class="thumbnail" href="https://bulles-et-sens.netlify.app/" target="_blank">Découvrez le site
+                        <img src="ressources/bulles-&-sens.jpg" alt="template bulles & sens"></a>
                 </div>
             </div>
         </div>
