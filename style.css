@@ -114,21 +114,18 @@ section .heading {
     text-align: center;
     margin: 0 auto;
     float: none;
-    background: rgb(51, 5, 78);
-    border-radius: 50px;
-    width: 550px;
-    height: 100px;
+    
 }
 #about .heading h1 {
     padding-top:5px ;
-    color: rgb(238, 203, 8);
+    color: rgb(51, 5, 78);
     text-transform: uppercase;
 
 
 }
 
 #about .heading h3 {
-    color: #fff;
+    color: #000;
 
 }
 
