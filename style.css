@@ -147,13 +147,14 @@ section .heading {
 }
 
 .button1 {
-    font-weight: bold;
-    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
     background: rgb(238, 203, 8);
     border: 1px solid #000;
     display: inline-block;
     margin-top: 20px;
-    padding: 18px 50px;
+    padding: 5px 50px;
     border-radius: 50px;
     transition: all 0.5s ease-in 0s;
 
@@ -441,7 +442,7 @@ footer h5 {
 }
 
 /*contact*/
-@media screen and (max-width:350px) {
+@media screen and (max-width:575px) {
 
 
     .timeline-panel h3 {
@@ -452,4 +453,8 @@ footer h5 {
         font-size: 12px;
     }
 
-  
+    #skills .progress h5 {
+        font-size: 10px;
+       
+    
+    }
