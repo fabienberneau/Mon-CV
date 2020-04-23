@@ -51,16 +51,17 @@ section .heading {
 
 /*menu*/
 
-.navbar{
-   
-    
+.navbar {
+
+
     background: rgb(51, 5, 78);
     font-size: 20px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
-    
+
 }
+
 .navbar .navbar-nav {
     display: inline-flex;
     float: none;
@@ -83,8 +84,8 @@ section .heading {
 
 }
 
-.navbar .icon{
-color: #fff;
+.navbar .icon {
+    color: #fff;
 }
 
 
@@ -113,7 +114,8 @@ color: #fff;
 
 
 }
-#about .heading{
+
+#about .heading {
     background: rgb(51, 5, 78);
     border: rgb(238, 203, 8) solid 15px;
     width: 300px;
@@ -121,13 +123,14 @@ color: #fff;
     text-align: center;
     margin: 0 auto;
     float: none;
-    
+
 }
+
 #about .heading h1 {
     font-size: 30px;
-    padding-top:60px ;
+    padding-top: 60px;
     color: #fff;
-    
+
 
 }
 
@@ -135,9 +138,10 @@ color: #fff;
     color: #fff;
 
 }
+
 #about .heading h2 {
     font-size: 20px;
-   margin-top:35px;
+    margin-top: 35px;
     color: #fff;
 
 }
@@ -157,7 +161,7 @@ color: #fff;
 
 .button1:hover {
     background: rgb(51, 5, 78);
-    color:rgb(238, 203, 8) !important;
+    color: rgb(238, 203, 8) !important;
 
 
 
@@ -374,23 +378,23 @@ color: #fff;
 
 /*Portfolio*/
 
-#portfolio .heading h2{
+#portfolio .heading h2 {
     color: rgb(51, 5, 78);
-    
+
 }
 
-#portfolio .thumbnail img{
-    
+#portfolio .thumbnail img {
+
     width: 100%;
     height: 100%;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
     transition: 1s;
     transform: scale(-1.-1);
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
 
-#portfolio .thumbnail img:hover{
+#portfolio .thumbnail img:hover {
     width: 100%;
     height: 100%;
     transition: 1s;
@@ -431,7 +435,21 @@ footer h5 {
     background: rgb(51, 5, 78);
     margin-bottom: 80px;
 }
+
 #contact .heading h2 {
     color: rgb(238, 203, 8);
 }
 
+/*contact*/
+@media screen and (max-width:350px) {
+
+
+    .timeline-panel h3 {
+        font-size: 15px;
+    }
+
+    .timeline-panel h4 {
+        font-size: 12px;
+    }
+
+  
