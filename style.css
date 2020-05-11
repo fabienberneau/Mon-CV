@@ -100,7 +100,7 @@ section .heading {
 #about img {
     width: 300px;
     height: 300px;
-    border: rgb(238, 203, 8) solid 15px;
+    border: rgb(255, 166, 0) solid 15px;
 
 }
 
@@ -115,7 +115,7 @@ section .heading {
 
 #about .heading {
     background: rgb(51, 5, 78);
-    border: rgb(238, 203, 8) solid 15px;
+    border: rgb(255, 166, 0) solid 15px;
     width: 300px;
     height: 300px;
     text-align: center;
@@ -148,7 +148,7 @@ section .heading {
     width: 200px;
     height: 50px;
     font-size: 15px;
-    background: rgb(238, 203, 8);
+    background: rgb(255, 166, 0);
     border: 1px solid #000;
     display: inline-block;
     margin-top: 20px;
@@ -199,7 +199,7 @@ section .heading {
 }
 
 #skills .progressbar {
-    background: rgb(238, 203, 8);
+    background: rgb(255, 166, 0);
 
 
 }
@@ -215,12 +215,12 @@ section .heading {
 .white-divider {
     width: 100px;
     height: 2px;
-    background: rgb(238, 203, 8);
+    background: rgb(255, 166, 0);
     margin: 0 auto;
 }
 
 #experiences .heading h2 {
-    color: rgb(238, 203, 8);
+    color: rgb(255, 166, 0);
 }
 
 .timeline {
@@ -447,7 +447,7 @@ footer img{
 }
 
 #contact .heading h2 {
-    color: rgb(238, 203, 8);
+    color: rgb(255, 166, 0);
 }
 
 
