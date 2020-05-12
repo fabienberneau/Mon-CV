@@ -27,7 +27,7 @@ img {
 }
 
 section {
-    padding: 45px 0 80px 0;
+    padding: 45px 0 40px 0;
 }
 
 section .heading h2 {
@@ -38,7 +38,7 @@ section .heading {
 
     margin-top: 40px;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 
 }
 
@@ -169,10 +169,14 @@ section .heading {
 /*Actualité*/
 #actualité .heading h2 {
     color: rgb(51, 5, 78);
-    margin-bottom: 10px;
-    
+    margin-bottom: 30px;
+   
 }
 
+#actualité {
+ margin-bottom: -25px;
+ 
+}
 
 /*skills*/
 
@@ -340,7 +344,7 @@ section .heading {
 .education-block {
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
+   
     background: #fff;
     border-radius: 10px;
     border: 2px solid #333;
@@ -348,6 +352,7 @@ section .heading {
 }
 
 .education-block h5 {
+    margin-top: 15px;
     color: #888;
     font-size: 15px;
     margin-bottom: 15px;
@@ -443,7 +448,7 @@ footer img{
 
 #contact {
     background: rgb(51, 5, 78);
-    margin-bottom: 80px;
+   
 }
 
 #contact .heading h2 {
