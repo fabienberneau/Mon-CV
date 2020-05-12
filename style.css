@@ -161,6 +161,7 @@ section .heading {
 .button1:hover {
     background: rgb(240, 236, 201);
     color: rgb(51, 5, 78) !important;
+    text-decoration: none;
 
 
 
@@ -175,7 +176,7 @@ section .heading {
 
 #actualité {
  margin-bottom: -25px;
- 
+
 }
 
 /*skills*/
