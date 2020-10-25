@@ -94,13 +94,10 @@ section .heading {
 
 #about {
     background-color:rgb(2,81,89) ;
-    
 }
 
-#about img {
-    margin: auto;
-    width: 480px;
-    height: 600px;
+#about img{
+    padding-left: 40px;
 }
 
 .profile-picture {   
@@ -123,6 +120,7 @@ section .heading {
     font-size: 35px;
     text-align: center;
     color: #fff;
+    margin-bottom: 40px;
 
 }
 
@@ -223,7 +221,7 @@ section .heading {
     position: absolute;
     content: " ";
     width: 5px;
-    background: #fff;
+    background: rgb(255,181,60);
     left: 50%;
     margin-left: -2.5px;
 }
@@ -449,7 +447,12 @@ footer img{
 /*contact*/
 @media screen and (max-width:575px) {
 
-    
+    #about img{
+        padding-left: 30px;
+        width: 400px;
+        height: 500px;
+        
+    }
     .timeline-panel h3 {
         font-size: 15px;
     }
