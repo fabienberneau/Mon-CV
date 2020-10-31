@@ -158,6 +158,7 @@ section .heading {
 
 #actualité .heading h2 {
     font-size: 30px;
+    font-weight: bold;
     font-family: 'Montserrat Alternates';
     color: rgb(2,81,89);
     margin-bottom: 30px;
