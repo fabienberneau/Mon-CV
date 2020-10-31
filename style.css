@@ -19,6 +19,7 @@ h6 {
 
 h2 {
     text-align: center;
+    ;
 }
 
 img {
@@ -55,15 +56,12 @@ section .heading {
 /*menu*/
 
 .navbar {
-
-
     background-color: #fff;
     font-size: 20px;
     color:rgb(2,81,89) ;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
-    
 
 }
 
@@ -96,11 +94,9 @@ section .heading {
     background-color:rgb(2,81,89) ;
 }
 
-#about img{
-    padding-left: 40px;
-}
 
-.profile-picture {   
+.profile-picture { 
+    text-align: center;  
     margin: 0 auto;
     margin-bottom: 20px;
     float: none;   
@@ -110,7 +106,7 @@ section .heading {
     font-family: 'Montserrat Alternates';
     text-align: center;
     font-size: 50px;
-    font-weight: bold;
+   font-weight: bold;
     padding-top: 10px;
     color: #fff;
 }
@@ -127,18 +123,18 @@ section .heading {
 #about .heading h2 {
     text-align: center;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 15px;
     color: #fff;
 
 }
 
 .button1 {
-    
     text-align: center;
-    width: 200px;
+    width: 220px;
     height: 50px;
-    font-size: 15px;
-    
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(2,81,89) !important;
     background: rgb(255,181,60);
     display: inline-block;
     margin-top: 40px;
@@ -161,7 +157,6 @@ section .heading {
 /*Actualité*/
 
 #actualité .heading h2 {
-    font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
     color: rgb(2,81,89);
@@ -186,9 +181,10 @@ section .heading {
 
 #skills .accordion .btn{
     background-color: rgb(255,181,60);
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(2,81,89);
 }
+
 
 /*experiences*/
 
@@ -331,7 +327,7 @@ section .heading {
     text-align: center;
     background: #fff;
     border-radius: 10px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     margin-bottom: 20px;
 }
 
@@ -448,7 +444,7 @@ footer img{
 @media screen and (max-width:575px) {
 
     #about img{
-        padding-left: 30px;
+        
         width: 400px;
         height: 500px;
         
