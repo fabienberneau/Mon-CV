@@ -98,7 +98,7 @@ section .heading {
 .profile-picture { 
     text-align: center;  
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     float: none;   
 }
 
