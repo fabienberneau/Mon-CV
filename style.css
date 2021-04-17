@@ -48,7 +48,7 @@ section .heading {
 .blue-divider {
     width: 100px;
     height: 2px;
-    background: rgb(2,81,89);
+    background: #333333;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@ section .heading {
 .navbar {
     background-color: #fff;
     font-size: 20px;
-    color:rgb(2,81,89) ;
+    color:#333333;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: bold;
@@ -77,12 +77,12 @@ section .heading {
 }
 
 .navbar li a {
-    color: rgb(2,81,89) !important;
+    color: #333333 !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: rgb(2,81,89) !important;
+    color: #333333 !important;
     background-color: #fff !important;
 
 }
@@ -91,7 +91,7 @@ section .heading {
 /*about*/
 
 #about {
-    background-color:rgb(2,81,89) ;
+    background-color:#333333 ;
 }
 
 
@@ -134,7 +134,7 @@ section .heading {
     height: 50px;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(2,81,89) !important;
+    color: #333333 !important;
     background: rgb(255,181,60);
     display: inline-block;
     margin-top: 40px;
@@ -147,7 +147,7 @@ section .heading {
 
 .button1:hover {
     background: rgb(240, 236, 201);
-    color: rgb(2,81,89) !important;
+    color: #333333 !important;
     text-decoration: none;
 
 
@@ -160,7 +160,7 @@ section .heading {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Montserrat Alternates';
-    color: rgb(2,81,89);
+    color: #333333;
     margin-bottom: 30px;
    
 }
@@ -177,20 +177,20 @@ section .heading {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
-    color: rgb(2,81,89);
+    color: #333333;
 }
 
 #skills .accordion .btn {
     background-color: rgb(255,181,60);
     font-size: 25px;
-    color: rgb(2,81,89);
+    color: #333333;
 }
 
 
 /*experiences*/
 
 #experiences {   
-    background: rgb(2,81,89);
+    background: #333333;
 }
 
 .white-divider {
@@ -313,7 +313,7 @@ section .heading {
 /*education*/
 
 #education {
-    background:rgb(2,81,89);
+    background:#333333;
 }
 
 #education .heading h2 {
@@ -344,7 +344,7 @@ section .heading {
 }
 
 .education-block h3 {
-    color: rgb(2,81,89);
+    color: #333333;
 }
 
 .education-block h4 {
@@ -370,7 +370,7 @@ section .heading {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
-    color: rgb(2,81,89);
+    color: #333333;
 }
 
 #portfolio .thumbnail img {
@@ -412,7 +412,7 @@ footer .fa {
 footer .fa :hover {
     margin: 20px;
     font-size: 40px;
-    color: rgb(2,81,89);
+    color: #333333;
     height: 30px;
 }
 
@@ -438,7 +438,7 @@ footer img{
     font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
-    color: rgb(2,81,89);
+    color: #333333;
 }
 
 
