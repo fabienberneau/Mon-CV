@@ -96,6 +96,8 @@ section .heading {
 
 
 .profile-picture { 
+    width: 150%;
+    height: 150%;
     text-align: center;  
     margin: 0 auto;
     float: none;   
