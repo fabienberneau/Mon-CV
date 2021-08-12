@@ -160,13 +160,14 @@ section .heading {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Montserrat Alternates';
-    color: #333333;
+    color: #fff;
     margin-bottom: 30px;
    
 }
 
 #actualité {
  margin-bottom: -25px;
+ background: #a27a58;
 
 }
 
