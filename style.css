@@ -167,7 +167,7 @@ section .heading {
 
 #actualité {
  margin-bottom: -25px;
- background: #a27a58;
+ background: #fff;
 
 }
 
@@ -327,7 +327,7 @@ section .heading {
 .education-block {
     margin: 0 auto;
     text-align: center;
-    background: #fff;
+    background: #a27a58;
     border-radius: 10px;
     border: 1px solid #333;
     margin-bottom: 20px;
@@ -345,7 +345,7 @@ section .heading {
 }
 
 .education-block h3 {
-    color: #333333;
+    color: #ffffff;
 }
 
 .education-block h4 {
