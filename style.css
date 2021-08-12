@@ -320,7 +320,7 @@ section .heading {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
-    color: rgb(255,181,60);
+    color: #a27a58;
 }
 
 .education-block {
@@ -430,7 +430,7 @@ footer img{
 /*contact*/
 
 #contact {
-    background: rgb(255,181,60);
+    background: #045f60;
    
 }
 
