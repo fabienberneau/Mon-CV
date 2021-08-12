@@ -218,7 +218,7 @@ section .heading {
     position: absolute;
     content: " ";
     width: 5px;
-    background: rgb(255,181,60);
+    background: #045f60;
     left: 50%;
     margin-left: -2.5px;
 }
@@ -242,7 +242,7 @@ section .heading {
 }
 
 .timeline li .timeline-badge {
-    color: rgb(255,181,60);
+    color: #045f60;
     width: 50px;
     line-height: 50px;
     font-size: 30px;
