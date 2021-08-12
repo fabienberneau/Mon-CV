@@ -181,9 +181,9 @@ section .heading {
 }
 
 #skills .accordion .btn {
-    background-color: rgb(255,181,60);
+    background-color: #045f60;
     font-size: 25px;
-    color: #333333;
+    color: #fff;
 }
 
 
@@ -196,7 +196,7 @@ section .heading {
 .white-divider {
     width: 100px;
     height: 2px;
-    background: rgb(255,181,60);
+    background: #a27a58);
     margin: 0 auto;
 }
 
