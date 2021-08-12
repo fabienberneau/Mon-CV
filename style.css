@@ -134,8 +134,8 @@ section .heading {
     height: 50px;
     font-weight: bold;
     font-size: 18px;
-    color: #333333 !important;
-    background: rgb(255,181,60);
+    color: #ffffff !important;
+    background: #045f60;
     display: inline-block;
     margin-top: 40px;
     padding: 12px 50px;
