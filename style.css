@@ -315,14 +315,14 @@ section .heading {
 /*education*/
 
 #education {
-    background:#333333;
+    background:#a27a58;
 }
 
 #education .heading h2 {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Montserrat Alternates';
-    color: #a27a58;
+    color: #ffffff;
 }
 
 .education-block {
