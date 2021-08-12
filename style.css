@@ -160,7 +160,7 @@ section .heading {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Montserrat Alternates';
-    color: #fff;
+    color: #333333;
     margin-bottom: 30px;
    
 }
@@ -327,7 +327,7 @@ section .heading {
 .education-block {
     margin: 0 auto;
     text-align: center;
-    background: #a27a58;
+    background: #fff;
     border-radius: 10px;
     border: 1px solid #333;
     margin-bottom: 20px;
