@@ -23,7 +23,7 @@ h2 {
 }
 
 img {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
 
@@ -186,6 +186,25 @@ section .heading {
     background-color: #045f60;
     font-size: 25px;
     color: #fff;
+}
+
+#skills .accordion img {
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    transition: 1s;
+    transform: scale(-1.-1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+#skills .accordion img:hover {
+    width: 100%;
+    height: auto;
+    transition: 1s;
+    transform: scale(1.1);
+    filter: none;
+    -webkit-filter: none;
 }
 
 
@@ -366,33 +385,7 @@ section .heading {
 }
 
 
-/*Portfolio*/
 
-#portfolio .heading h2 {
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Montserrat Alternates';
-    color: #333333;
-}
-
-#portfolio .thumbnail img {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 20px;
-    transition: 1s;
-    transform: scale(-1.-1);
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-#portfolio .thumbnail img:hover {
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-    transform: scale(1.1);
-    filter: none;
-    -webkit-filter: none;
-}
 
 
 
